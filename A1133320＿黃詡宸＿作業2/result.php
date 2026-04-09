@@ -19,7 +19,10 @@ if (!isset($_SESSION["logged_in"])) {
             <tr><td>其他意見</td><td><?php echo $_POST["nop"]; ?></td></tr>
         </table>
         <br>
-        <a href="register.php">返回報名表</a>
+        <form method="GET" action="register.php">
+            <input type="submit" value="返回報名表">
+        </form>
+
     </center>
 </body>
 </html>
