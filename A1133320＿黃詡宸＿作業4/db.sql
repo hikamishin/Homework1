@@ -1,7 +1,0 @@
-CREATE DATABASE IF NOT EXISTS homework_mail CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE homework_mail;
-
-CREATE TABLE IF NOT EXISTS emails (
-    no INT AUTO_INCREMENT PRIMARY KEY,
-    email VARCHAR(255) NOT NULL UNIQUE
-);
